@@ -35,7 +35,7 @@ public class QuestionServiceImpl implements QuestionService {
             e.printStackTrace();
         }
         return new ResponseEntity<>(new ArrayList<>(), HttpStatus.BAD_REQUEST);
- 
+
     }
 
     public ResponseEntity<String> addQuestion(Question question) {

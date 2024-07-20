@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Data
-public class Quiz {
+public class  git addQuiz {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
